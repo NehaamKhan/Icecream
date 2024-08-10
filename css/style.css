@@ -128,7 +128,7 @@ section{
 
 .home .slide{
     min-height: 100vh;
-    background-size: cover !important;
+    background-size: cover;
     background-position: center ;
     display: flex;
     align-items: center;
