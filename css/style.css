@@ -531,6 +531,7 @@ section{
         text-align: left;
         width: 50rem;
         padding-left: 9rem;
+        display: block;
     }
 
 }
