@@ -11,28 +11,18 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
-var homeSwiper = new Swiper(".home-slider", {
-    grabCursor: true,
-    loop: true,
-    centeredSlides: true,
+
+var swiper = new Swiper(".home-slider", {
+    grabCursor:true,
+    loop:true,
+    centeredSlides:true,
     navigation: {
         nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-        },
-        768: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-        },
+        prevEl: ".swiper-button-prev"
     },
 });
 
-
-var reviewsSwiper = new Swiper(".reviews-slider", {
+var swiper = new Swiper(".reviews-slider", {
     pagination:{
         el:".swiper-pagination",
         clickable:true,
