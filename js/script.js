@@ -11,8 +11,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
-
-var swiper = new Swiper(".home-slider", {
+var homeSwiper = new Swiper(".home-slider", {
     grabCursor:true,
     loop:true,
     centeredSlides:true,
@@ -22,7 +21,7 @@ var swiper = new Swiper(".home-slider", {
     },
 });
 
-var swiper = new Swiper(".reviews-slider", {
+var reviewsSwiper = new Swiper(".reviews-slider", {
     pagination:{
         el:".swiper-pagination",
         clickable:true,
