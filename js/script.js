@@ -12,14 +12,25 @@ window.onscroll = () => {
 }
 
 var homeSwiper = new Swiper(".home-slider", {
-    grabCursor:true,
-    loop:true,
-    centeredSlides:true,
+    grabCursor: true,
+    loop: true,
+    centeredSlides: true,
     navigation: {
         nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
     },
 });
+
 
 var reviewsSwiper = new Swiper(".reviews-slider", {
     pagination:{
