@@ -138,6 +138,10 @@ section{
     .home .slide {
         background-size: contain !important;
         background-repeat: no-repeat;
+		min-height: 100vh;
+        background-position: center;
+        display: flex;
+        align-items: center;
     }
 }
 
