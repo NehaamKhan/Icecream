@@ -134,6 +134,13 @@ section{
     align-items: center;
 }
 
+@media screen and (orientation: portrait) {
+    .home .slide {
+        background-size: contain !important;
+        background-repeat: no-repeat;
+    }
+}
+
 .home .slide .content{
     text-align: center;
     width: 70rem;
